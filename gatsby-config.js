@@ -102,6 +102,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-plugin-netlify-cms-paths',
           'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-katex',
@@ -124,7 +125,8 @@ module.exports = {
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
-          'gatsby-remark-external-links'
+          'gatsby-remark-external-links',
+          'gatsby-plugin-netlify-cms-paths'
         ]
       }
     },
