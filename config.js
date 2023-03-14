@@ -24,10 +24,6 @@ module.exports = {
 			label: 'Contact me',
 			path: '/pages/contacts',
 		},
-		{
-			label: 'Contact-Us',
-			path: '/pages/contact-us',
-		},
 	],
 	author: {
 		name: 'John Doe',
