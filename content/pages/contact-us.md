@@ -1,5 +1,5 @@
 ---
 template: page
-title: Contact-Us
+title: New Page
 ---
-G﻿et in touch
+Test new page
